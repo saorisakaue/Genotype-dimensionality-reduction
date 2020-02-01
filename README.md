@@ -1,5 +1,5 @@
 # Dimensionality reduction methods to large-scale genotype data.
-This is a repository for a source code to replicate Sakaue S. et al. 2020 (to appear).
+This is a repository for a source code to replicate Sakaue S. et al. (To appear).
 
 ## Overview
 
@@ -12,7 +12,7 @@ To find finest-scale population substructures, we applied a series of dimensiona
 ## Publication
 **Coming soon**
 
-Sakaue S et al. [Dimensionality reduction enlightens the finest-scale genetic, evolutional, and phenotypic structure within the Japanese population.](https://XXX) ***Nat Commun*** 2020 (to appear)
+Sakaue S et al. To appear
 
 ## Requirements
 
@@ -22,7 +22,7 @@ Sakaue S et al. [Dimensionality reduction enlightens the finest-scale genetic, e
 - pandas
 - TSNE
 
-We would recommend you to install these dependencies using `anaconda`.
+We would recommend you to install these dependencies by using `anaconda`.
 
 ## Installation
 If you want to download the scripts,
@@ -35,22 +35,23 @@ $ cd ./Genotype-dimensionality-reduction
 Two scripts
 - 01_prep_genotype.sh
 - 02_run_umap.py
+
 are used for performing dimensionality reduction on genotype data provided by the user as plink file. To run the script on the command line, simply
 
 ```{bash}
-bash 01_prep_genotype.sh {path_to_your_plinkfile_prefix}
-python 02_run_umap.py {path_to_your_plinkfile_prefix}
+bash 01_prep_genotype.sh ${path/to/your_plinkfile_prefix}
+python 02_run_dr.py ${path/to/your_plinkfile_prefix}
 ```
 
 can do all the analyses.
-Example genotype data of 50 individuals from 1KGPp3v5 is provided in ./data_umap directory.
+Example genotype data of 50 individuals from 1KGPp3v5 is provided in `./data_umap` directory.
 If you use example dataset, the command line will be as follows;
-```
+```{bash}
 bash 01_prep_genotype.sh ./data_umap/1KG.selected
-python 02_run_umap.py ./data_umap/1KG.selected
+python 02_run_dr.py ./data_umap/1KG.selected
 ```
 
-
+Please note that it would be efficient to split the process of `02_run_umap.py` into each part of the five dimensionality reduction methods, particularly when the genotype data is large (*N* > 10K).
 
 ## Contact
 Any questions? Saori Sakaue (saori.sakaue\[at\]riken.jp)
