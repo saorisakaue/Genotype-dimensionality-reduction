@@ -45,14 +45,14 @@ Such imputation tools are;
 - `Eagle` (https://data.broadinstitute.org/alkesgroup/Eagle/)
 
 
-`Eagle` is scalable and accurate for imputing biobank-scale genotype data (e.g., *N* > ).
+`Eagle` is scalable and accurate for imputing biobank-scale genotype data (e.g., *N* > 100K).
 
 ## Usage
 Two scripts
 - `01_prep_genotype.sh` : for LD pruning and formatting of the genotype
 - `02_run_dr.py` : main dimensionality reduction functions
 
-are used for performing dimensionality reduction on genotype data provided by the user as plink file. To run the script on the command line, simply
+are used for performing dimensionality reduction methods on genotype data provided by the user as plink file. To run the script on the command line, simply
 
 ```{bash}
 bash 01_prep_genotype.sh ${path/to/your_plinkfile_prefix}
