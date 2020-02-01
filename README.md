@@ -20,7 +20,7 @@ Sakaue S et al. To appear
 - scikit-learn
 - scipy
 - pandas
-- TSNE
+- MulticoreTSNE
 
 We would recommend you to install these dependencies by using `anaconda`.
 
@@ -34,7 +34,7 @@ $ cd ./Genotype-dimensionality-reduction
 ## Usage
 Two scripts
 - 01_prep_genotype.sh
-- 02_run_umap.py
+- 02_run_dr.py
 
 are used for performing dimensionality reduction on genotype data provided by the user as plink file. To run the script on the command line, simply
 
