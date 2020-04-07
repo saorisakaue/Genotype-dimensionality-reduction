@@ -1,5 +1,5 @@
 # Dimensionality reduction methods to large-scale genotype data.
-This is a repository for a source code to replicate Sakaue S et al. *Nature Communications.* In Press.
+This is a repository for a source code to replicate Sakaue S et al. *Nature Communications.* 2020.
 
 ## Overview
 
@@ -10,9 +10,9 @@ This is a repository for a source code to replicate Sakaue S et al. *Nature Comm
 To find finest-scale population substructures, we applied a series of dimensionality reduction methods to large-scale genotype data of Japanese and also worldwide populations. We will introduce the python-based source code for replicating our results.
 
 ## Publication
-**Our paper is coming soon!**
+**Our paper is out!**
 
-Sakaue S *et al.* Dimensionality reduction reveals fine-scale structure in the Japanese population with consequences for polygenic risk prediction. *Nature Communications.* In Press.
+Sakaue S *et al.* [Dimensionality reduction reveals fine-scale structure in the Japanese population with consequences for polygenic risk prediction.](https://www.nature.com/articles/s41467-020-15194-z) *Nature Communications.* 2020
 
 ## Requirements
 
