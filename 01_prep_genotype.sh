@@ -2,7 +2,7 @@
 
 # This script is written for preparing the genotype matrix to run dimensionality reduction methods.
 
-GENPTYPE="$1"
+GENOPTYPE="$1"
 # 1) LD pruning
 plink \
  --bfile ${GENOTYPE} \
